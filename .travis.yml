@@ -1,0 +1,8 @@
+env:
+  global:
+    secure: abcdxyz123654@
+language: python
+os: linux
+dist: focal
+script:
+  - python hello_world.py
