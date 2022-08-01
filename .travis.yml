@@ -1,6 +1,9 @@
 env:
   global:
-    secure: $SECRET2
+    - FOO=foo
+    - BAR=bar
+    - secure: $SECRET
+    - secure: $SECRET2
 language: python
 os: linux
 dist: focal
